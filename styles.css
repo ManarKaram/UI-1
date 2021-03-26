@@ -511,6 +511,8 @@ footer .list i {
     }
     main.page2 .banner .content h1 {
         font-size: 30px;
+        margin-left: 0;
+        text-align: center;
     }
     main.page2 .banner .content .features {
         display: block;
@@ -526,6 +528,7 @@ footer .list i {
     }
     main.page2 .explore h1 {
         font-size: 30px;
+        margin: 0;
     }
     main.page2 .explore .content .section .offers .item {
         margin: auto auto 10px auto;
@@ -558,6 +561,10 @@ footer .list i {
     }
     footer .list ul li {
         font-size: 12px;
+    }
+
+    main.page2 .explore {
+        text-align: center;
     }
    
 }
