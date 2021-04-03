@@ -54,11 +54,11 @@
             </div>
         </div>
         <div class="choices">
-            <div>Recommended Packages</div>
-            <div>Main Packages</div>
+            <div class="tablink active" onclick="openTab(event, 'tabContent1')">Recommended Packages</div>
+            <div class="tablink" onclick="openTab(event, 'tabContent2')">Main Packages</div>
         </div>
     </nav>
-    <main class="page1">
+    <main class="page1 tabContent" id="tabContent1">
         <div class="head-title">Pick your voice and internet plans</div>
         <div class="bundle">
             <div class="title">
@@ -103,7 +103,9 @@
             </div>
         </div>
     </main>
-
+    <main class="page1 tabContent" id="tabContent2">
+        content 2
+    </main>
     <main class="page2">
         <div class="banner">
             <div class="overlay"></div>
@@ -250,6 +252,7 @@
             <div>Download My Etisalat</div>
         </section>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
